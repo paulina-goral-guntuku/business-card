@@ -36,13 +36,15 @@ main {
 
 .article__header--name {
     font-family: Arial, Helvetica, sans-serif;
-    font-weight: 36px;
+    font-size: 36px;
     margin-bottom: 0;
+    font-style: normal;
+    font-weight: normal;
 }
 
 .article__header--job {
     font-family: Arial, Helvetica, sans-serif;
-    font-weight: 18px;
+    font-size: 18px;
     font-style: italic;
     margin-top: 0;
 }
@@ -60,4 +62,14 @@ main {
 .article__social {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
+}
+
+.strong {
+    font-weight: normal;
+    color: #ED6D05;
+}
+
+.link {
+    text-decoration: none;
+    color: #E20613;
 }
