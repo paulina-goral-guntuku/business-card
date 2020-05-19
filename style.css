@@ -11,23 +11,27 @@ html {
 body {
   background: #2c2141;
   min-height: 100vh;
-  display: flex;
-  justify-content: center;
   margin: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 main {
+    width: 624px;
+    height: 320px;
+    border-radius: 16px;
+    background: #f8f8f8;
+    padding: 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
 }
 
 .article {
-  width: 624px;
-  height: 320px;
-  border-radius: 16px;
-  background: #f8f8f8;
-  padding: 32px;
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
 }
 
 .article__header {
